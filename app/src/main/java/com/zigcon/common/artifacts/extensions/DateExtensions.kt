@@ -1,7 +1,9 @@
 package com.zigcon.common.artifacts.extensions
 
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Calendar
+import java.util.Date
+import java.util.Locale
 
 
 fun Long.getDateFromMilliseconds(requiredFormat: String): String {

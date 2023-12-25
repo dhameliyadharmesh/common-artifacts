@@ -11,10 +11,9 @@ import androidx.lifecycle.Observer
  **/
 class EventObserver<T>(private var onEventUnhandledContent: EventHandler<T>?)  : Observer<EventData<T>> {
 
-    override fun onChanged(event: EventData<T>) {
-        if(event != null){
-            onEventUnhandledContent?.onEventUnHandled(event.getContentIfNotHandled());
-        }
+    override fun onChanged(value: EventData<T>) {
+
+        onEventUnhandledContent?.onEventUnHandled(value.getContentIfNotHandled())
     }
 
 }

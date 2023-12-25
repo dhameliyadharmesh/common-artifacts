@@ -6,9 +6,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewbinding.ViewBinding
-import com.zigcon.common.artifacts.extensions.shortToast
 import com.common.managers.NetworkManager
 import com.zigcon.common.artifacts.R
+import com.zigcon.common.artifacts.extensions.shortToast
 
 /**
  * @Author Dharmesh
